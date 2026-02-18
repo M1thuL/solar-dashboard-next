@@ -1,0 +1,96 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(() => {
+var exports = {};
+exports.id = "pages/api/auth/register";
+exports.ids = ["pages/api/auth/register"];
+exports.modules = {
+
+/***/ "bcrypt":
+/*!*************************!*\
+  !*** external "bcrypt" ***!
+  \*************************/
+/***/ ((module) => {
+
+module.exports = require("bcrypt");
+
+/***/ }),
+
+/***/ "better-sqlite3":
+/*!*********************************!*\
+  !*** external "better-sqlite3" ***!
+  \*********************************/
+/***/ ((module) => {
+
+module.exports = require("better-sqlite3");
+
+/***/ }),
+
+/***/ "next/dist/compiled/next-server/pages-api.runtime.dev.js":
+/*!**************************************************************************!*\
+  !*** external "next/dist/compiled/next-server/pages-api.runtime.dev.js" ***!
+  \**************************************************************************/
+/***/ ((module) => {
+
+module.exports = require("next/dist/compiled/next-server/pages-api.runtime.dev.js");
+
+/***/ }),
+
+/***/ "path":
+/*!***********************!*\
+  !*** external "path" ***!
+  \***********************/
+/***/ ((module) => {
+
+module.exports = require("path");
+
+/***/ }),
+
+/***/ "(api)/./node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js?kind=PAGES_API&page=%2Fapi%2Fauth%2Fregister&preferredRegion=&absolutePagePath=.%2Fpages%5Capi%5Cauth%5Cregister.js&middlewareConfigBase64=e30%3D!":
+/*!************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js?kind=PAGES_API&page=%2Fapi%2Fauth%2Fregister&preferredRegion=&absolutePagePath=.%2Fpages%5Capi%5Cauth%5Cregister.js&middlewareConfigBase64=e30%3D! ***!
+  \************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   config: () => (/* binding */ config),\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__),\n/* harmony export */   routeModule: () => (/* binding */ routeModule)\n/* harmony export */ });\n/* harmony import */ var next_dist_server_future_route_modules_pages_api_module_compiled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/server/future/route-modules/pages-api/module.compiled */ \"(api)/./node_modules/next/dist/server/future/route-modules/pages-api/module.compiled.js\");\n/* harmony import */ var next_dist_server_future_route_modules_pages_api_module_compiled__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_future_route_modules_pages_api_module_compiled__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_dist_server_future_route_kind__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/dist/server/future/route-kind */ \"(api)/./node_modules/next/dist/server/future/route-kind.js\");\n/* harmony import */ var next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/dist/build/templates/helpers */ \"(api)/./node_modules/next/dist/build/templates/helpers.js\");\n/* harmony import */ var _pages_api_auth_register_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages\\api\\auth\\register.js */ \"(api)/./pages/api/auth/register.js\");\n\n\n\n// Import the userland code.\n\n// Re-export the handler (should be the default export).\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_pages_api_auth_register_js__WEBPACK_IMPORTED_MODULE_3__, \"default\"));\n// Re-export config.\nconst config = (0,next_dist_build_templates_helpers__WEBPACK_IMPORTED_MODULE_2__.hoist)(_pages_api_auth_register_js__WEBPACK_IMPORTED_MODULE_3__, \"config\");\n// Create and export the route module that will be consumed.\nconst routeModule = new next_dist_server_future_route_modules_pages_api_module_compiled__WEBPACK_IMPORTED_MODULE_0__.PagesAPIRouteModule({\n    definition: {\n        kind: next_dist_server_future_route_kind__WEBPACK_IMPORTED_MODULE_1__.RouteKind.PAGES_API,\n        page: \"/api/auth/register\",\n        pathname: \"/api/auth/register\",\n        // The following aren't used in production.\n        bundlePath: \"\",\n        filename: \"\"\n    },\n    userland: _pages_api_auth_register_js__WEBPACK_IMPORTED_MODULE_3__\n});\n\n//# sourceMappingURL=pages-api.js.map//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwaSkvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LXJvdXRlLWxvYWRlci9pbmRleC5qcz9raW5kPVBBR0VTX0FQSSZwYWdlPSUyRmFwaSUyRmF1dGglMkZyZWdpc3RlciZwcmVmZXJyZWRSZWdpb249JmFic29sdXRlUGFnZVBhdGg9LiUyRnBhZ2VzJTVDYXBpJTVDYXV0aCU1Q3JlZ2lzdGVyLmpzJm1pZGRsZXdhcmVDb25maWdCYXNlNjQ9ZTMwJTNEISIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7OztBQUFzRztBQUN2QztBQUNMO0FBQzFEO0FBQzREO0FBQzVEO0FBQ0EsaUVBQWUsd0VBQUssQ0FBQyx3REFBUSxZQUFZLEVBQUM7QUFDMUM7QUFDTyxlQUFlLHdFQUFLLENBQUMsd0RBQVE7QUFDcEM7QUFDTyx3QkFBd0IsZ0hBQW1CO0FBQ2xEO0FBQ0EsY0FBYyx5RUFBUztBQUN2QjtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsS0FBSztBQUNMLFlBQVk7QUFDWixDQUFDOztBQUVEIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vc29sYXItZGFzaGJvYXJkLW5leHQvPzgzYzIiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgUGFnZXNBUElSb3V0ZU1vZHVsZSB9IGZyb20gXCJuZXh0L2Rpc3Qvc2VydmVyL2Z1dHVyZS9yb3V0ZS1tb2R1bGVzL3BhZ2VzLWFwaS9tb2R1bGUuY29tcGlsZWRcIjtcbmltcG9ydCB7IFJvdXRlS2luZCB9IGZyb20gXCJuZXh0L2Rpc3Qvc2VydmVyL2Z1dHVyZS9yb3V0ZS1raW5kXCI7XG5pbXBvcnQgeyBob2lzdCB9IGZyb20gXCJuZXh0L2Rpc3QvYnVpbGQvdGVtcGxhdGVzL2hlbHBlcnNcIjtcbi8vIEltcG9ydCB0aGUgdXNlcmxhbmQgY29kZS5cbmltcG9ydCAqIGFzIHVzZXJsYW5kIGZyb20gXCIuL3BhZ2VzXFxcXGFwaVxcXFxhdXRoXFxcXHJlZ2lzdGVyLmpzXCI7XG4vLyBSZS1leHBvcnQgdGhlIGhhbmRsZXIgKHNob3VsZCBiZSB0aGUgZGVmYXVsdCBleHBvcnQpLlxuZXhwb3J0IGRlZmF1bHQgaG9pc3QodXNlcmxhbmQsIFwiZGVmYXVsdFwiKTtcbi8vIFJlLWV4cG9ydCBjb25maWcuXG5leHBvcnQgY29uc3QgY29uZmlnID0gaG9pc3QodXNlcmxhbmQsIFwiY29uZmlnXCIpO1xuLy8gQ3JlYXRlIGFuZCBleHBvcnQgdGhlIHJvdXRlIG1vZHVsZSB0aGF0IHdpbGwgYmUgY29uc3VtZWQuXG5leHBvcnQgY29uc3Qgcm91dGVNb2R1bGUgPSBuZXcgUGFnZXNBUElSb3V0ZU1vZHVsZSh7XG4gICAgZGVmaW5pdGlvbjoge1xuICAgICAgICBraW5kOiBSb3V0ZUtpbmQuUEFHRVNfQVBJLFxuICAgICAgICBwYWdlOiBcIi9hcGkvYXV0aC9yZWdpc3RlclwiLFxuICAgICAgICBwYXRobmFtZTogXCIvYXBpL2F1dGgvcmVnaXN0ZXJcIixcbiAgICAgICAgLy8gVGhlIGZvbGxvd2luZyBhcmVuJ3QgdXNlZCBpbiBwcm9kdWN0aW9uLlxuICAgICAgICBidW5kbGVQYXRoOiBcIlwiLFxuICAgICAgICBmaWxlbmFtZTogXCJcIlxuICAgIH0sXG4gICAgdXNlcmxhbmRcbn0pO1xuXG4vLyMgc291cmNlTWFwcGluZ1VSTD1wYWdlcy1hcGkuanMubWFwIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(api)/./node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js?kind=PAGES_API&page=%2Fapi%2Fauth%2Fregister&preferredRegion=&absolutePagePath=.%2Fpages%5Capi%5Cauth%5Cregister.js&middlewareConfigBase64=e30%3D!\n");
+
+/***/ }),
+
+/***/ "(api)/./lib/db.js":
+/*!*******************!*\
+  !*** ./lib/db.js ***!
+  \*******************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   createUser: () => (/* binding */ createUser),\n/* harmony export */   findUserByEmail: () => (/* binding */ findUserByEmail),\n/* harmony export */   findUserById: () => (/* binding */ findUserById),\n/* harmony export */   verifyPassword: () => (/* binding */ verifyPassword)\n/* harmony export */ });\n/* harmony import */ var better_sqlite3__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! better-sqlite3 */ \"better-sqlite3\");\n/* harmony import */ var better_sqlite3__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(better_sqlite3__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! path */ \"path\");\n/* harmony import */ var path__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(path__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var bcrypt__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! bcrypt */ \"bcrypt\");\n/* harmony import */ var bcrypt__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(bcrypt__WEBPACK_IMPORTED_MODULE_2__);\n// lib/db.js\n\n\n\nconst DB_PATH = path__WEBPACK_IMPORTED_MODULE_1___default().join(process.cwd(), \"auth.db\");\nconst db = new (better_sqlite3__WEBPACK_IMPORTED_MODULE_0___default())(DB_PATH);\n// Create users table if not exists\ndb.exec(`\r\nCREATE TABLE IF NOT EXISTS users (\r\n  id INTEGER PRIMARY KEY AUTOINCREMENT,\r\n  email TEXT UNIQUE NOT NULL,\r\n  password TEXT NOT NULL,\r\n  name TEXT\r\n);\r\n`);\n// Helper functions\nfunction findUserByEmail(email) {\n    const row = db.prepare(\"SELECT * FROM users WHERE email = ?\").get(email);\n    return row || null;\n}\nfunction findUserById(id) {\n    const row = db.prepare(\"SELECT * FROM users WHERE id = ?\").get(id);\n    return row || null;\n}\nasync function createUser({ email, password, name }) {\n    // hash password\n    const hashed = await bcrypt__WEBPACK_IMPORTED_MODULE_2___default().hash(password, 10);\n    const stmt = db.prepare(\"INSERT INTO users (email, password, name) VALUES (?, ?, ?)\");\n    const info = stmt.run(email, hashed, name || null);\n    return findUserById(info.lastInsertRowid);\n}\nasync function verifyPassword(email, inputPassword) {\n    const user = findUserByEmail(email);\n    if (!user) return null;\n    const ok = await bcrypt__WEBPACK_IMPORTED_MODULE_2___default().compare(inputPassword, user.password);\n    return ok ? user : null;\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwaSkvLi9saWIvZGIuanMiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7OztBQUFBLFlBQVk7QUFDMEI7QUFDZDtBQUNJO0FBRTVCLE1BQU1HLFVBQVVGLGdEQUFTLENBQUNJLFFBQVFDLEdBQUcsSUFBSTtBQUN6QyxNQUFNQyxLQUFLLElBQUlQLHVEQUFRQSxDQUFDRztBQUV4QixtQ0FBbUM7QUFDbkNJLEdBQUdDLElBQUksQ0FBQyxDQUFDOzs7Ozs7O0FBT1QsQ0FBQztBQUVELG1CQUFtQjtBQUNaLFNBQVNDLGdCQUFnQkMsS0FBSztJQUNuQyxNQUFNQyxNQUFNSixHQUFHSyxPQUFPLENBQUMsdUNBQXVDQyxHQUFHLENBQUNIO0lBQ2xFLE9BQU9DLE9BQU87QUFDaEI7QUFFTyxTQUFTRyxhQUFhQyxFQUFFO0lBQzdCLE1BQU1KLE1BQU1KLEdBQUdLLE9BQU8sQ0FBQyxvQ0FBb0NDLEdBQUcsQ0FBQ0U7SUFDL0QsT0FBT0osT0FBTztBQUNoQjtBQUVPLGVBQWVLLFdBQVcsRUFBRU4sS0FBSyxFQUFFTyxRQUFRLEVBQUVDLElBQUksRUFBRTtJQUN4RCxnQkFBZ0I7SUFDaEIsTUFBTUMsU0FBUyxNQUFNakIsa0RBQVcsQ0FBQ2UsVUFBVTtJQUMzQyxNQUFNSSxPQUFPZCxHQUFHSyxPQUFPLENBQUM7SUFDeEIsTUFBTVUsT0FBT0QsS0FBS0UsR0FBRyxDQUFDYixPQUFPUyxRQUFRRCxRQUFRO0lBQzdDLE9BQU9KLGFBQWFRLEtBQUtFLGVBQWU7QUFDMUM7QUFFTyxlQUFlQyxlQUFlZixLQUFLLEVBQUVnQixhQUFhO0lBQ3ZELE1BQU1DLE9BQU9sQixnQkFBZ0JDO0lBQzdCLElBQUksQ0FBQ2lCLE1BQU0sT0FBTztJQUNsQixNQUFNQyxLQUFLLE1BQU0xQixxREFBYyxDQUFDd0IsZUFBZUMsS0FBS1YsUUFBUTtJQUM1RCxPQUFPVyxLQUFLRCxPQUFPO0FBQ3JCIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vc29sYXItZGFzaGJvYXJkLW5leHQvLi9saWIvZGIuanM/M2RjOSJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyBsaWIvZGIuanNcclxuaW1wb3J0IERhdGFiYXNlIGZyb20gJ2JldHRlci1zcWxpdGUzJztcclxuaW1wb3J0IHBhdGggZnJvbSAncGF0aCc7XHJcbmltcG9ydCBiY3J5cHQgZnJvbSAnYmNyeXB0JztcclxuXHJcbmNvbnN0IERCX1BBVEggPSBwYXRoLmpvaW4ocHJvY2Vzcy5jd2QoKSwgJ2F1dGguZGInKTtcclxuY29uc3QgZGIgPSBuZXcgRGF0YWJhc2UoREJfUEFUSCk7XHJcblxyXG4vLyBDcmVhdGUgdXNlcnMgdGFibGUgaWYgbm90IGV4aXN0c1xyXG5kYi5leGVjKGBcclxuQ1JFQVRFIFRBQkxFIElGIE5PVCBFWElTVFMgdXNlcnMgKFxyXG4gIGlkIElOVEVHRVIgUFJJTUFSWSBLRVkgQVVUT0lOQ1JFTUVOVCxcclxuICBlbWFpbCBURVhUIFVOSVFVRSBOT1QgTlVMTCxcclxuICBwYXNzd29yZCBURVhUIE5PVCBOVUxMLFxyXG4gIG5hbWUgVEVYVFxyXG4pO1xyXG5gKTtcclxuXHJcbi8vIEhlbHBlciBmdW5jdGlvbnNcclxuZXhwb3J0IGZ1bmN0aW9uIGZpbmRVc2VyQnlFbWFpbChlbWFpbCkge1xyXG4gIGNvbnN0IHJvdyA9IGRiLnByZXBhcmUoJ1NFTEVDVCAqIEZST00gdXNlcnMgV0hFUkUgZW1haWwgPSA/JykuZ2V0KGVtYWlsKTtcclxuICByZXR1cm4gcm93IHx8IG51bGw7XHJcbn1cclxuXHJcbmV4cG9ydCBmdW5jdGlvbiBmaW5kVXNlckJ5SWQoaWQpIHtcclxuICBjb25zdCByb3cgPSBkYi5wcmVwYXJlKCdTRUxFQ1QgKiBGUk9NIHVzZXJzIFdIRVJFIGlkID0gPycpLmdldChpZCk7XHJcbiAgcmV0dXJuIHJvdyB8fCBudWxsO1xyXG59XHJcblxyXG5leHBvcnQgYXN5bmMgZnVuY3Rpb24gY3JlYXRlVXNlcih7IGVtYWlsLCBwYXNzd29yZCwgbmFtZSB9KSB7XHJcbiAgLy8gaGFzaCBwYXNzd29yZFxyXG4gIGNvbnN0IGhhc2hlZCA9IGF3YWl0IGJjcnlwdC5oYXNoKHBhc3N3b3JkLCAxMCk7XHJcbiAgY29uc3Qgc3RtdCA9IGRiLnByZXBhcmUoJ0lOU0VSVCBJTlRPIHVzZXJzIChlbWFpbCwgcGFzc3dvcmQsIG5hbWUpIFZBTFVFUyAoPywgPywgPyknKTtcclxuICBjb25zdCBpbmZvID0gc3RtdC5ydW4oZW1haWwsIGhhc2hlZCwgbmFtZSB8fCBudWxsKTtcclxuICByZXR1cm4gZmluZFVzZXJCeUlkKGluZm8ubGFzdEluc2VydFJvd2lkKTtcclxufVxyXG5cclxuZXhwb3J0IGFzeW5jIGZ1bmN0aW9uIHZlcmlmeVBhc3N3b3JkKGVtYWlsLCBpbnB1dFBhc3N3b3JkKSB7XHJcbiAgY29uc3QgdXNlciA9IGZpbmRVc2VyQnlFbWFpbChlbWFpbCk7XHJcbiAgaWYgKCF1c2VyKSByZXR1cm4gbnVsbDtcclxuICBjb25zdCBvayA9IGF3YWl0IGJjcnlwdC5jb21wYXJlKGlucHV0UGFzc3dvcmQsIHVzZXIucGFzc3dvcmQpO1xyXG4gIHJldHVybiBvayA/IHVzZXIgOiBudWxsO1xyXG59XHJcbiJdLCJuYW1lcyI6WyJEYXRhYmFzZSIsInBhdGgiLCJiY3J5cHQiLCJEQl9QQVRIIiwiam9pbiIsInByb2Nlc3MiLCJjd2QiLCJkYiIsImV4ZWMiLCJmaW5kVXNlckJ5RW1haWwiLCJlbWFpbCIsInJvdyIsInByZXBhcmUiLCJnZXQiLCJmaW5kVXNlckJ5SWQiLCJpZCIsImNyZWF0ZVVzZXIiLCJwYXNzd29yZCIsIm5hbWUiLCJoYXNoZWQiLCJoYXNoIiwic3RtdCIsImluZm8iLCJydW4iLCJsYXN0SW5zZXJ0Um93aWQiLCJ2ZXJpZnlQYXNzd29yZCIsImlucHV0UGFzc3dvcmQiLCJ1c2VyIiwib2siLCJjb21wYXJlIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(api)/./lib/db.js\n");
+
+/***/ }),
+
+/***/ "(api)/./pages/api/auth/register.js":
+/*!************************************!*\
+  !*** ./pages/api/auth/register.js ***!
+  \************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ handler)\n/* harmony export */ });\n/* harmony import */ var _lib_db__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../lib/db */ \"(api)/./lib/db.js\");\n// pages/api/auth/register.js\n\nasync function handler(req, res) {\n    if (req.method !== \"POST\") return res.status(405).json({\n        error: \"Method not allowed\"\n    });\n    const { email, password, name } = req.body || {};\n    if (!email || !password) return res.status(400).json({\n        error: \"Email and password required\"\n    });\n    // check existing\n    const existing = (0,_lib_db__WEBPACK_IMPORTED_MODULE_0__.findUserByEmail)(email);\n    if (existing) return res.status(409).json({\n        error: \"User already exists\"\n    });\n    try {\n        const user = await (0,_lib_db__WEBPACK_IMPORTED_MODULE_0__.createUser)({\n            email,\n            password,\n            name\n        });\n        return res.status(201).json({\n            ok: true,\n            user: {\n                id: user.id,\n                email: user.email,\n                name: user.name\n            }\n        });\n    } catch (err) {\n        console.error(err);\n        return res.status(500).json({\n            error: \"Error creating user\"\n        });\n    }\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwaSkvLi9wYWdlcy9hcGkvYXV0aC9yZWdpc3Rlci5qcyIsIm1hcHBpbmdzIjoiOzs7OztBQUFBLDZCQUE2QjtBQUNpQztBQUUvQyxlQUFlRSxRQUFRQyxHQUFHLEVBQUVDLEdBQUc7SUFDNUMsSUFBSUQsSUFBSUUsTUFBTSxLQUFLLFFBQVEsT0FBT0QsSUFBSUUsTUFBTSxDQUFDLEtBQUtDLElBQUksQ0FBQztRQUFFQyxPQUFPO0lBQXFCO0lBRXJGLE1BQU0sRUFBRUMsS0FBSyxFQUFFQyxRQUFRLEVBQUVDLElBQUksRUFBRSxHQUFHUixJQUFJUyxJQUFJLElBQUksQ0FBQztJQUMvQyxJQUFJLENBQUNILFNBQVMsQ0FBQ0MsVUFBVSxPQUFPTixJQUFJRSxNQUFNLENBQUMsS0FBS0MsSUFBSSxDQUFDO1FBQUVDLE9BQU87SUFBOEI7SUFFNUYsaUJBQWlCO0lBQ2pCLE1BQU1LLFdBQVdaLHdEQUFlQSxDQUFDUTtJQUNqQyxJQUFJSSxVQUFVLE9BQU9ULElBQUlFLE1BQU0sQ0FBQyxLQUFLQyxJQUFJLENBQUM7UUFBRUMsT0FBTztJQUFzQjtJQUV6RSxJQUFJO1FBQ0YsTUFBTU0sT0FBTyxNQUFNZCxtREFBVUEsQ0FBQztZQUFFUztZQUFPQztZQUFVQztRQUFLO1FBQ3RELE9BQU9QLElBQUlFLE1BQU0sQ0FBQyxLQUFLQyxJQUFJLENBQUM7WUFBRVEsSUFBSTtZQUFNRCxNQUFNO2dCQUFFRSxJQUFJRixLQUFLRSxFQUFFO2dCQUFFUCxPQUFPSyxLQUFLTCxLQUFLO2dCQUFFRSxNQUFNRyxLQUFLSCxJQUFJO1lBQUM7UUFBRTtJQUNwRyxFQUFFLE9BQU9NLEtBQUs7UUFDWkMsUUFBUVYsS0FBSyxDQUFDUztRQUNkLE9BQU9iLElBQUlFLE1BQU0sQ0FBQyxLQUFLQyxJQUFJLENBQUM7WUFBRUMsT0FBTztRQUFzQjtJQUM3RDtBQUNGIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vc29sYXItZGFzaGJvYXJkLW5leHQvLi9wYWdlcy9hcGkvYXV0aC9yZWdpc3Rlci5qcz9jN2IxIl0sInNvdXJjZXNDb250ZW50IjpbIi8vIHBhZ2VzL2FwaS9hdXRoL3JlZ2lzdGVyLmpzXHJcbmltcG9ydCB7IGNyZWF0ZVVzZXIsIGZpbmRVc2VyQnlFbWFpbCB9IGZyb20gJy4uLy4uLy4uL2xpYi9kYic7XHJcblxyXG5leHBvcnQgZGVmYXVsdCBhc3luYyBmdW5jdGlvbiBoYW5kbGVyKHJlcSwgcmVzKSB7XHJcbiAgaWYgKHJlcS5tZXRob2QgIT09ICdQT1NUJykgcmV0dXJuIHJlcy5zdGF0dXMoNDA1KS5qc29uKHsgZXJyb3I6ICdNZXRob2Qgbm90IGFsbG93ZWQnIH0pO1xyXG5cclxuICBjb25zdCB7IGVtYWlsLCBwYXNzd29yZCwgbmFtZSB9ID0gcmVxLmJvZHkgfHwge307XHJcbiAgaWYgKCFlbWFpbCB8fCAhcGFzc3dvcmQpIHJldHVybiByZXMuc3RhdHVzKDQwMCkuanNvbih7IGVycm9yOiAnRW1haWwgYW5kIHBhc3N3b3JkIHJlcXVpcmVkJyB9KTtcclxuXHJcbiAgLy8gY2hlY2sgZXhpc3RpbmdcclxuICBjb25zdCBleGlzdGluZyA9IGZpbmRVc2VyQnlFbWFpbChlbWFpbCk7XHJcbiAgaWYgKGV4aXN0aW5nKSByZXR1cm4gcmVzLnN0YXR1cyg0MDkpLmpzb24oeyBlcnJvcjogJ1VzZXIgYWxyZWFkeSBleGlzdHMnIH0pO1xyXG5cclxuICB0cnkge1xyXG4gICAgY29uc3QgdXNlciA9IGF3YWl0IGNyZWF0ZVVzZXIoeyBlbWFpbCwgcGFzc3dvcmQsIG5hbWUgfSk7XHJcbiAgICByZXR1cm4gcmVzLnN0YXR1cygyMDEpLmpzb24oeyBvazogdHJ1ZSwgdXNlcjogeyBpZDogdXNlci5pZCwgZW1haWw6IHVzZXIuZW1haWwsIG5hbWU6IHVzZXIubmFtZSB9IH0pO1xyXG4gIH0gY2F0Y2ggKGVycikge1xyXG4gICAgY29uc29sZS5lcnJvcihlcnIpO1xyXG4gICAgcmV0dXJuIHJlcy5zdGF0dXMoNTAwKS5qc29uKHsgZXJyb3I6ICdFcnJvciBjcmVhdGluZyB1c2VyJyB9KTtcclxuICB9XHJcbn1cclxuIl0sIm5hbWVzIjpbImNyZWF0ZVVzZXIiLCJmaW5kVXNlckJ5RW1haWwiLCJoYW5kbGVyIiwicmVxIiwicmVzIiwibWV0aG9kIiwic3RhdHVzIiwianNvbiIsImVycm9yIiwiZW1haWwiLCJwYXNzd29yZCIsIm5hbWUiLCJib2R5IiwiZXhpc3RpbmciLCJ1c2VyIiwib2siLCJpZCIsImVyciIsImNvbnNvbGUiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(api)/./pages/api/auth/register.js\n");
+
+/***/ })
+
+};
+;
+
+// load runtime
+var __webpack_require__ = require("../../../webpack-api-runtime.js");
+__webpack_require__.C(exports);
+var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next"], () => (__webpack_exec__("(api)/./node_modules/next/dist/build/webpack/loaders/next-route-loader/index.js?kind=PAGES_API&page=%2Fapi%2Fauth%2Fregister&preferredRegion=&absolutePagePath=.%2Fpages%5Capi%5Cauth%5Cregister.js&middlewareConfigBase64=e30%3D!")));
+module.exports = __webpack_exports__;
+
+})();
