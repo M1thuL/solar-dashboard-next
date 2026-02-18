@@ -1,4 +1,4 @@
-🌞 Solar Dashboard (Next.js)
+**🌞 Solar Dashboard (Next.js)**
 
 A modern Solar Energy Monitoring Dashboard built with Next.js, designed to visualize real-time solar telemetry, historical trends, and energy insights through interactive charts and analytics.
 
